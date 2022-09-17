@@ -10,7 +10,13 @@ Note that `pkexec` does not provide a command similar to `sudoedit` or `sudo -e`
 
 ## Installation
 
-If you use [ohmyzsh](https://ohmyz.sh), simply add `pkexec` to the plugins array in your zshrc file, like so:
+If you use [ohmyzsh](https://ohmyz.sh), simply clone the respository into the custom plugins directory.
+
+```
+$ git clone https://github.com/saltedcoffii/pkexec ~/.oh-my-zsh/custom/plugins/pkexec
+```
+
+Then, add `pkexec` to the plugins array in your zshrc file, like so:
 
 ```zsh
 plugins=(... pkexec)
